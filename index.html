@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Тест по Истории: Подготовка</title>
+    <!-- Подключаем внешний файл стилей -->
+    <link rel="stylesheet" href="hasan said.css">
+</head>
+<body>
+
+    <div class="quiz-container">
+        <header>
+            <h1>Исторический Квиз</h1>
+            <div id="progress">Вопрос 1 из 25</div>
+        </header>
+
+        <div id="quiz">
+            <!-- Сюда JavaScript будет подставлять вопросы -->
+            <h2 id="question-text">Загрузка вопроса...</h2>
+            <div id="options" class="options-grid"></div>
+        </div>
+
+        <div id="result-container" class="hidden">
+            <h2>Тест завершен!</h2>
+            <p id="final-score"></p>
+            <button onclick="location.reload()">Пройти еще раз</button>
+        </div>
+
+        <footer class="controls">
+            <button id="next-btn">Следующий вопрос</button>
+        </footer>
+    </div>
+
+    <!-- Здесь должен быть ваш JavaScript (логика) -->
+    <script src="hasan said.js"></script>
+</body>
+</html>
